@@ -3,7 +3,7 @@ import './About.css';
 
 function About() {
     return (
-        <div className="About">
+        <div className="About" id="about">
             <div className="numbered-heading"><span id="numbered-heading-number">01.</span> About Me</div>
                 
             <div className="About-paragraph">
@@ -13,6 +13,7 @@ function About() {
                     <ul className="tech-list">
                         <li>JavaScript (ES6+)</li>
                         <li>React</li>
+                        <li>Python</li>
                         <li>HTML</li>
                         <li>CSS</li>
                     </ul>

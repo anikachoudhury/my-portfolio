@@ -18,8 +18,8 @@ function Navbar() {
                 <i class={click? "fas fa-times" : "fas fa-bars"}></i>
             </div>
             <div className={click? "Nav-menu active" : "Nav-menu"}>
-                <div className="Nav-item"><span id="number">01.</span> About Me</div>
-                <div className="Nav-item"><span id="number">02.</span> Projects</div>
+                <a href="#about"><div className="Nav-item"><span id="number">01.</span> About Me</div></a>
+                <a href="#projects"><div className="Nav-item"><span id="number">02.</span> Projects</div></a>
                 <div className="Nav-item"><span id="number">03.</span> Contact</div>
             </div>
         </div>
